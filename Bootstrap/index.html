@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Hair Style</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hair Style</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quemSomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nossoTime">Nosso time</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel/cabelos1.jpg" width="600" height="400" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Cabelos Volumosos</h5>
+                        <p>Produtos para obter volume sem friz</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/cabelos2.jpg" width="600" height="400" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Cabelos Brilhosos</h5>
+                        <p>Produtos para manter o máximo de brilho e hidratação</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/cabelos3.jpg" width="600" height="400" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Cabelos Macios</h5>
+                        <p>Produtos para manter o cabelo nutrido e macio</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/cabelos4.jpg" width="600" height="400" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Cabelos Coloridos</h5>
+                        <p>Produtos para ter o melhor da cor mantendo o cabelo saudável</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section id="inicio" class="container-fluid bg-light text-center p-2">
+        <h2 class="display-4">Bem vinda ao Hair Style</h2>
+        <p>Procedimentos químicos, sol, vento e poluição são os grandes vilões dos fios. Por isso, adotar uma rotina de
+            cuidados com o cabelo, seja ele oleoso, misto ou seco, é essencial para manter as madeixas saudáveis,
+            brilhosas e bonitas, não é mesmo? </p>
+        <p>Além de lavá-las com um xampu específico e selar os fios com condicionador, existem alguns cuidados extras
+            que você pode adotar no dia a dia para ajudar no crescimento dos fios. Isso porque os cabelos longos nunca
+            saem de moda. Eles oferecem uma grande versatilidade de penteados, dando um aspecto descolado ao visual.</p>
+        <p>Estamos aqui para te ajudar!!!</p>
+        <p> Aqui temos algumas dicas e produtos para manter uma rotina de cuidados com o cabelo e deixá-lo sempre
+            lindo e hidratado.</p>
+        <p>Confira!</p>
+    </section>
+    <section id="produtos" class="container-fluid bg-light text-center p-2">
+        <h2 class="display-4">Conheça nossos produtos</h2>
+        <p>Produtos para todos os tipos de cabelos</p>
+        <div id="carousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row row-cols-1 row-cols-md-6 g-4">
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/oleo.png" class="card-img-top" alt="blend de óleos widi care">
+                                <div class="card-body">
+                                    <h5 class="card-title">JUBA BLEND DE ÓLEOS VEGETAIS 60ML - WIDI CARE</h5>
+                                    <p class="card-text">O Juba Blend de Óleos Vegetais, possui fórmula exclusiva que
+                                        umecta os fios altamente ressecados e ajuda nos tratamentos intensivos para
+                                        essas necessidades.</p>
+                                    <h6>R$ 38,90</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 9,72 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/creme.png" class="card-img-top" alt="ENCRESPANDO A JUBA CREME DE PENTEAR - 500ML - WIDI CARE">
+                                <div class="card-body">
+                                    <h5 class="card-title">ENCRESPANDO A JUBA CREME DE PENTEAR - 500ML - WIDI CARE</h5>
+                                    <p class="card-text">A linha de tratamento JUBA foi especialmente desenvolvida para
+                                        as necessidades dos cabelos cacheados (3A, 3B e 3C) e crespos (4A, 4B e 4C),
+                                        proporcionando brilho, definição e hidratação aos fios.</p>
+                                    <h6>R$ 54,90</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 13,72 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/kitjuba.png" class="card-img-top" alt="SUPER COMBO COMPLETO ENCRESPANDO A JUBA - WIDI CARE">
+                                <div class="card-body">
+                                    <h5 class="card-title">SUPER COMBO COMPLETO ENCRESPANDO A JUBA - WIDI CARE</h5>
+                                    <p class="card-text">Esse COMBO contém:
+
+                                        Juba Co-wash - 500ml - Widi Care
+                                        Encrespando a JUBA Creme de Pentear - 500ml - Widi Care
+                                        Juba Mousse Criador de Cachos - 200ml - Widi Care
+                                        Máscara Hidro-Nutritiva JUBA 500g - Widi Care
+                                        Higienizando a JUBA Shampoo 500ml - Widi Care
+                                        Modelando a JUBA Geleia Seladora 300g - Widi Care
+                                        Revitalizando a JUBA Bruma Hidratante 300ml - Widi Care</p>
+                                    <h6>R$ 345,10</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 86,27 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/kityumi.png" class="card-img-top" alt="COMBO COMPLETO SPA DETOX - YAMY!">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO COMPLETO SPA DETOX - YAMY!</h5>
+                                    <p class="card-text">Este combo contém:
+
+                                        Shampoo Suco Detox Kiwi 300g - Yamy!
+                                        Condicionador Shake Reenergizante Kiwi 300g - Yamy!
+                                        Máscara Plástica Vegetal Kiwi 450g - Yamy!
+                                        Extratos Reparadores Spa Detox Kiwi 100ml - Yamy!</p>
+                                    <h6>R$ 128,80</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 32,20 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/mang.png" class="card-img-top" alt="MÁSCARA HIDRONUTRITIVA MUNGUNZÁ 300G">
+                                <div class="card-body">
+                                    <h5 class="card-title">MÁSCARA HIDRONUTRITIVA MUNGUNZÁ 300G - ABELA</h5>
+                                    <p class="card-text">Mungunzá é uma sobremesa originária do Nordeste Brasileiro. A
+                                        Abela se inspirou em sua alma nordestina para criar uma máscara capilar vegana
+                                        com alto poder de hidratação e nutrição.</p>
+                                    <h6>R$ 52,90</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 13,22 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/kitcaspa.png" class="card-img-top" alt="COMBO COMPLETO ANTICASPA DETOX">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO COMPLETO ANTICASPA DETOX - SOUL POWER</h5>
+                                    <p class="card-text">Este combo contém:
+
+                                        Shampoo Anticaspa Detox Power Wash 315ml - Soul Power
+                                        Condicionador Anticaspa Detox Strong Help 315ML - Soul Power
+                                        Creme de Pentear Anticaspa Detox Curly Cream 500ml - Soul Power
+                                        Gelatina Efeito Invisível Anticaspa Detox 400g - Soul Power</p>
+                                    <h6>R$ 116,40</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 29,10 sem juros
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row row-cols-1 row-cols-md-6 g-4">
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/nutricao.png" class="card-img-top" alt="AS MÁSCARAS SUPER PODEROSAS NUTRIÇÃO 300G">
+                                <div class="card-body">
+                                    <h5 class="card-title">AS MÁSCARAS SUPER PODEROSAS NUTRIÇÃO 300G - WIDI CARE</h5>
+                                    <p class="card-text">As máscaras Super Poderosas chegam com tudo! Elas serão suas
+                                        novas aliadas no combate aos danos, que tanto tentamos evitar em nossos fios. As
+                                        três máscara juntas, formam um super cronograma capilar.
+
+                                    </p>
+                                    <h6>R$ 49,90</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 12,47 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/seteoleos.png" class="card-img-top" alt="SETE ÓLEOS - MÁSCARA NUTRITIVA 300G">
+                                <div class="card-body">
+                                    <h5 class="card-title">SETE ÓLEOS - MÁSCARA NUTRITIVA 300G - WIDI CARE</h5>
+                                    <p class="card-text">A linha de tratamento Sete Óleos foi desenvolvida com extratos e óleos vegetais para nutrir os cabelos, conferir brilho e maciez. Envolve cada fio com um véu invisível de nutrientes, incluindo Semente de Uva, Amêndoa Doce e Coco. </p>
+                                    <h6>R$ 39,90</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 9,97 sem juros
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/etinik.png" class="card-img-top" alt="COMBO ETNIK BRASIL - RECONSTRUÇÃO ">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO ETNIK BRASIL - RECONSTRUÇÃO - WIDI CARE</h5>
+                                    <p class="card-text">Este combo é composto por:
+
+                                        Etnik Brasil - Shampoo Hidratante 300ml - Widi Care
+                                        Etnik Brasil - Condicionador Hidratante 300ml - Widi Care
+                                        Etnik Brasil - Máscara Reconstrutora 300g - Widi Care</p>
+                                    <h6>R$ 100,40</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 25,10 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/python.png" class="card-img-top" alt="COMBO COMPLETO PHYTOMANGA">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO COMPLETO PHYTOMANGA - WIDI CARE</h5>
+                                    <p class="card-text">A linha de tratamento Phytomanga foi desenvolvida com extratos e óleos vegetais para nutrir os cabelos. Envolve cada fio com um véu invisível de nutrientes, incluindo Manteiga de Manga e Extrato de Pitanga. </p>
+                                    <h6>R$ 147,80</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 36,95 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/resgate.png" class="card-img-top" alt="COMBO COMPLETO OPERAÇÃO RESGATE">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO COMPLETO OPERAÇÃO RESGATE - WIDI CARE</h5>
+                                    <p class="card-text">Este combo contém:
+
+ 
+
+                                        Operação Resgate - Shampoo Reconstrutor 300ml - Widi Care
+                                        Operação Resgate - Reconstrução Imediata Finalizador Antiemborrachamento - Widi Care - 300ml
+                                        Operação Resgate - Protetor Térmico 200ml - Widi Care</p>
+                                    <h6>R$ 124,10</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 31,02 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card h-100">
+                                <img src="img/produtos/perola.png" class="card-img-top" alt="COMBO PÉROLAS DE CAVIAR">
+                                <div class="card-body">
+                                    <h5 class="card-title">COMBO PÉROLAS DE CAVIAR - HIDRATAÇÃO INTENSA - WIDI CARE</h5>
+                                    <p class="card-text">A linha Pérolas de Caviar possui fórmula equilibrada com combinação exclusiva de Óleo de Argan e Extrato de Caviar, que adere ao cabelo assegurando máxima proteção e hidratação aos fios</p>
+                                    <h6>R$ 100,40</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">até 4x de R$ 25,10 sem juros</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="quemSomos" class="container-fluid bg-light text-center p-2">
+        <h2 class="display-4">Quem Somos</h2>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="img/mulheres/quemsomos.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h3>Mulheres...</h3>
+                        <p>Somos mulheres como você, que precisa trabalhar, cuidar da casa e ainda precisa cuidar de si
+                            mesma.</p>
+                        <p>Por isso que criamos esse site, nosso objetivo vai alem de vendas de produtos, queremos
+                            ajudar a cada uma identificando a necessidade específica dos seus fios e assim lhe sugerir o
+                            melhor cronograma capilar. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nossoTime" class="container-fluid bg-light text-center p-2">
+        <h2 class="display-4">Nosso Time</h2>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="img/mulheres/mulher1.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h3>Jaqueline Vianna</h3>
+                        <p>Negra de 30 anos e dos cabelos crespos, sei o quanto é difícil manter o cabelo saudável e
+                            fazer todo o restante que o universo nos exige.</p>
+                        <p>Porém com o tempo aprendi essa mágica e estou aqui para compartilhar com vocês.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="img/mulheres/mulher2.jpg" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h3>Larissa Machado</h3>
+                        <p>Branca de 25 anos e loira não natural, gosto de me manter loira e sabemos o quanto a química
+                            destrói os nossos fios.</p>
+                        <p>Estou aqui para passar todos os conhecimento que tenho e buscar cada vez mais também.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Hair Style, Inc <br>Rua dos bobos, numero 0</span>
+        </div>
+
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted"></span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#">
+                    <svg fill="#000000" width="24" height="24" version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px"
+                        height="64px" viewBox="0 0 33.88 33.88" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M30.414,10.031c0.014,0.297,0.021,0.595,0.021,0.897c0,9.187-6.992,19.779-19.779,19.779c-3.928,0-7.58-1.149-10.657-3.123 c0.546,0.063,1.099,0.095,1.658,0.095c3.26,0,6.254-1.107,8.632-2.974c-3.039-0.058-5.607-2.065-6.491-4.828 c0.424,0.082,0.858,0.125,1.308,0.125c0.635,0,1.248-0.084,1.83-0.244c-3.177-0.639-5.576-3.448-5.576-6.815 c0-0.029,0-0.058,0-0.087c0.939,0.521,2.01,0.833,3.15,0.869C2.646,12.48,1.419,10.35,1.419,7.938c0-1.274,0.343-2.467,0.94-3.495 c3.427,4.206,8.552,6.973,14.327,7.263c-0.117-0.509-0.18-1.038-0.18-1.584c0-3.838,3.112-6.949,6.953-6.949 c1.998,0,3.805,0.844,5.07,2.192c1.582-0.311,3.072-0.89,4.416-1.686c-0.521,1.624-1.621,2.986-3.057,3.844 c1.406-0.166,2.746-0.54,3.991-1.092C32.949,7.826,31.771,9.05,30.414,10.031z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                    <svg fill="#000000" width="24" height="24" viewBox="-5.5 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>facebook</title>
+                        <path
+                            d="M1.188 5.594h18.438c0.625 0 1.188 0.563 1.188 1.188v18.438c0 0.625-0.563 1.188-1.188 1.188h-18.438c-0.625 0-1.188-0.563-1.188-1.188v-18.438c0-0.625 0.563-1.188 1.188-1.188zM14.781 17.281h2.875l0.125-2.75h-3v-2.031c0-0.781 0.156-1.219 1.156-1.219h1.75l0.063-2.563s-0.781-0.125-1.906-0.125c-2.75 0-3.969 1.719-3.969 3.563v2.375h-2.031v2.75h2.031v7.625h2.906v-7.625z">
+                        </path>
+                    </svg>
+                </a></li>
+            <li class="ms-3"><a class="text-muted" href="#">
+                    <svg fill="#000000" width="24" height="24" viewBox="0 0 256 256" id="Flat"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M160,128a32,32,0,1,1-32-32A32.03667,32.03667,0,0,1,160,128Zm68-44v88a56.06353,56.06353,0,0,1-56,56H84a56.06353,56.06353,0,0,1-56-56V84A56.06353,56.06353,0,0,1,84,28h88A56.06353,56.06353,0,0,1,228,84Zm-52,44a48,48,0,1,0-48,48A48.05436,48.05436,0,0,0,176,128Zm16-52a12,12,0,1,0-12,12A12,12,0,0,0,192,76Z">
+                            </path>
+                        </g>
+                    </svg></a></li>
+        </ul>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
