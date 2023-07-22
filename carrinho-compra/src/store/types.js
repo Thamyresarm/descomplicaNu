@@ -1,0 +1,5 @@
+export const fetchCartType = 'FETCH CART'
+export const fetchProductsType = 'FETCH PRODUCTS'
+export const fetchSubTotal = 'FETCH SUBTOTAL'
+export const saveProductInCartType = 'SAVE PRODUCT IN CART'
+export const deleteProductFromCartType = 'DELETE PRODUCT FROM CART'
